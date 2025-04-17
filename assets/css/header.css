@@ -1,0 +1,67 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #3a4652;
+  padding: 11px 24px;
+}
+nav {
+  display: flex;
+  gap: 47px;
+  align-items: center;
+}
+.nav-bar {
+  display: flex;
+  gap: 144px;
+}
+.navigation {
+  color: var(--text-color-h1h2h3);
+  /* border-bottom: 2px solid rgba(255, 255, 255, 0); */
+  padding-bottom: 2px;
+  background-image: linear-gradient(#6bacd1 0 0);
+  background-position: 0 100%; /*OR bottom left*/
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  margin-bottom: -2px;
+  transition: 0.5s;
+}
+.navigation:hover {
+  color: var(--text-color-nav);
+  /* border-bottom: 2px solid var(--text-color-nav); */
+
+  background-size: 100% 2px;
+}
+.navbar_light-theme {
+  position: relative;
+  width: 54px;
+  height: 30px;
+  border-radius: 14px;
+  border: 2px solid var(--text-color-h1h2h3);
+  cursor: pointer;
+}
+#light {
+  display: none;
+}
+.light {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+}
+.light span {
+  position: absolute;
+  left: 3px;
+  top: 4px;
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-color: var(--text-color-h1h2h3);
+  border-radius: 14px;
+  cursor: pointer;
+  transition: 0.6s;
+  transition-timing-function: ease-in-out;
+}
+#light:checked ~ .light span {
+  transform: translateX(25px);
+}

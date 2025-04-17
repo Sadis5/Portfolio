@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/buttons.css" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/sidebar.css" />
+    <link rel="stylesheet" href="./assets/css/about.css" />
+    <link rel="stylesheet" href="./assets/css/skill.css" />
+    <link rel="stylesheet" href="./assets/css/portfolio.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Matvey Mirage</h1>
+      <div class="nav-bar">
+        <nav>
+          <a href="./index.html"><h4 class="navigation">ABOUT</h4></a>
+          <a href="./skills.html"><h4 class="navigation">SKILLS</h4></a>
+          <a href="./services.html"><h4 class="navigation">SERVICES</h4></a>
+          <a href="./portfolio.html"><h4 class="navigation">PORTFOLIO</h4></a>
+        </nav>
+        <div class="navbar_light-theme">
+          <input type="checkbox" id="light" />
+          <label for="light" class="light">
+            <span></span>
+          </label>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <aside class="sidebar">
+        <img class="sidebar-photo" src="./assets/img/user-photo.svg" alt="" />
+        <div class="sidebar-title">
+          <h3 class="sidebar-name">Matvey</h3>
+          <h4>Frontend Developer</h4>
+        </div>
+        <p class="sidebar-text">
+          High level experience in web design and development knowledge.
+        </p>
+        <div class="sidebar_social-links">
+          <a target="_blank" href="https://github.com/Sadis5"
+            ><img src="./assets/img/github.svg" alt=""
+          /></a>
+          <a target="_blank" href="https://twitter.com"
+            ><img src="./assets/img/twitter.svg" alt=""
+          /></a>
+          <a target="_blank" href="https://instagram.com"
+            ><img src="./assets/img/instagram.svg" alt=""
+          /></a>
+        </div>
+        <button class="btn-contact">Contact me</button>
+      </aside>
+
+      <main class="content page-skills">
+        <div class="page-content_titles">
+          <h2>Portfolio</h2>
+          <h5>My faworite Anime</h5>
+        </div>
+        <div class="slider-wrapper">
+          <img
+            class="slider-arrow"
+            src="./assets/img/SwiperLeft.svg"
+            alt=""
+            id="left-slide"
+          />
+
+          <div class="slider">
+            <div class="slider-slide">
+              <img
+                src="./assets/img/yuuichi.jpg"
+                alt=""
+                class="slider_project-image"
+              />
+              <main class="slider-main">
+                <h2 class="slaider-main_title">Friends Game</h2>
+                <p class="slider-main_text">
+                  Website adaptable to all devices, with UI components and
+                  animated interactions
+                </p>
+                <button class="btn-demo">DEMO</button>
+              </main>
+            </div>
+          </div>
+          <img
+            class="slider-arrow"
+            src="./assets/img/SwiperRight.svg"
+            alt=""
+            id="right-slide"
+          />
+        </div>
+        <div class="slider-pagination"></div>
+        <!-- <img id="animation" src="./assets/img/kilua.jpg" alt="" /> -->
+        <p id="text"></p>
+      </main>
+    </main>
+  </body>
+  <script defer src="./assets/js/index.js"></script>
+  <script defer src="./assets/js/slider.js"></script>
+</html>

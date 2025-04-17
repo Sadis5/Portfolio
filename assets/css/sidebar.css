@@ -1,0 +1,36 @@
+.sidebar {
+  display: inline-flex;
+  height: 925px;
+  padding: 50px 46px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-right: 1px solid #3a4652;
+}
+.sidebar-photo {
+  width: 163px;
+  height: 163px;
+  flex-shrink: 0;
+}
+.sidebar-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}
+.sidebar-text {
+  width: 179px;
+  height: 84px;
+  flex-shrink: 0;
+  text-align: center;
+}
+.btn-contact {
+  display: flex;
+  width: 164px;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

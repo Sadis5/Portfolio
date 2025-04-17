@@ -1,0 +1,94 @@
+:root {
+  --text-color-h1h2h3: #5671a6;
+  --color-white: white;
+  --text-color-h4h5h6: black;
+  --text-color-nav: #6bacd1;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Pixelify Sans", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+h1 {
+  color: var(--text-color-h1h2h3);
+
+  font-size: 36px;
+
+  font-weight: 600;
+}
+h2 {
+  color: var(--text-color-h1h2h3);
+
+  font-size: 32px;
+
+  font-weight: 600;
+}
+h3 {
+  font-size: 24px;
+  color: var(--text-color-h1h2h3);
+  font-weight: 600;
+}
+h4 {
+  color: #383838;
+
+  font-size: 16px;
+
+  font-weight: 600;
+}
+h5 {
+  color: #383838;
+
+  font-size: 14px;
+
+  font-weight: 600;
+}
+h6 {
+  color: #000;
+
+  font-size: 14px;
+
+  font-weight: 500;
+}
+p {
+  color: #616161;
+
+  font-family: Bai Jamjuree;
+  font-size: 16px;
+
+  font-weight: 500;
+}
+button {
+  border-radius: 50px;
+  padding: 10px 40px;
+  border: 2px solid #5671a6;
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+}
+body {
+  background-image: url("../img/Phon.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}
